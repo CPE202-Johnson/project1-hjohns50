@@ -11,7 +11,7 @@ def convert(num, b):
     remainder = num % b
     rem_str = ''
     if quotient == 0:
-        return remainder
+        return str(remainder)
     if remainder > 9:
         remainder = con_dict[remainder]
     base = convert(quotient, b)
