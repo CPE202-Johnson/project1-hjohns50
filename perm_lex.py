@@ -1,8 +1,8 @@
 # string -> List of strings
 # Returns list of permutations for input string
 def perm_gen_lex(a):
-    if len(a) == 0:
-        return ['']
+    if a == '':
+        return []
     if len(a) == 1: #returns a singular character 
          return [a]
     perm_lst = []
